@@ -27,13 +27,13 @@ const projects = [
     description:
       "Analyzed employee attrition patterns to understand workforce trends, employee characteristics and factors associated with employee turnover.",
     bullets: [
-      "Performed exploratory analysis using Python and Pandas to understand employee demographics and attrition patterns.",
-      "Used SQL queries to analyze departments, job roles, compensation, overtime and other employee attributes.",
-      "Developed a Power BI dashboard to present attrition KPIs, trends and workforce insights.",
-      "Translated analytical findings into clear business-oriented insights for understanding employee retention.",
+      "Analyzed 1,470 employee records to identify attrition patterns across departments, job roles, overtime, salary, and other workforce factors.",
+      "Used SQL and EDA to quantify attrition, identifying a 16.12% overall attrition rate and 20% attrition in Sales.",
+      "Found that employees working overtime were 3x more likely to leave, while employees who left earned approximately ₹2,000 less on average.",
+      "Built a 6-visual Power BI dashboard to track attrition KPIs and highlight overtime and compensation as key retention factors.",
     ],
     tags: ["Python", "SQL", "Power BI", "Pandas"],
-    link: "https://github.com/poojitha0101/hr-attrition-analysis",
+    link: "[https://github.com/poojitha0101/hr-attrition-analysis](https://github.com/poojitha0101/hr-attrition-analysis)",
   },
   {
     number: "02",
@@ -43,13 +43,13 @@ const projects = [
     description:
       "Analyzed customer churn data to identify customer segments, behavioral patterns and factors associated with customer retention and churn.",
     bullets: [
-      "Cleaned and prepared customer data using Python and Pandas for analysis.",
-      "Performed exploratory data analysis to identify churn patterns across customer characteristics and services.",
-      "Built a Power BI dashboard to communicate churn trends, customer segments and key indicators.",
-      "Presented analytical findings in a business-friendly format to support customer retention analysis.",
+      "Analyzed 7,043 customer records to identify churn patterns across contract type, pricing, and customer segments.",
+      "Identified a 26% overall churn rate, with month-to-month customers accounting for 1,655 churn cases.",
+      "Compared customer billing patterns and found average monthly charges of ₹74 for churned customers versus ₹61 for retained customers.",
+      "Built a 2-page interactive Power BI drill-through dashboard and developed a tiered pricing and retention recommendation for higher-risk customer segments.",
     ],
     tags: ["Python", "Pandas", "Power BI", "Analytics"],
-    link: "https://github.com/poojitha0101/telco-churn-analysis",
+    link: "[https://github.com/poojitha0101/telco-churn-analysis](https://github.com/poojitha0101/telco-churn-analysis)",
   },
   {
     number: "03",
@@ -59,13 +59,13 @@ const projects = [
     description:
       "Used SQL to analyze e-commerce data and answer business-focused questions around sales, customers, products and performance trends.",
     bullets: [
-      "Used SQL queries to explore customer, product, sales and order-level information.",
-      "Applied joins, aggregations, filtering, CASE expressions and analytical queries to answer business questions.",
-      "Analyzed sales and product performance to identify useful business patterns.",
-      "Used Excel to support reporting and communicate analytical findings clearly.",
+      "Designed a 3-table relational database and wrote 30+ SQL queries to analyze sales, customers, orders, and business performance.",
+      "Applied JOINs, CTEs, Window Functions, GROUP BY, HAVING, and Subqueries to answer customer and sales-related business questions.",
+      "Identified top-revenue customers, repeat buyers, and city-wise sales patterns to derive customer and sales insights.",
+      "Prepared Excel MIS reports using Pivot Tables to analyze sales performance and identify high-value customer segments.",
     ],
     tags: ["SQL", "Excel", "Business Analysis"],
-    link: "https://github.com/poojitha0101/ecommerce-sql-analysis",
+    link: "[https://github.com/poojitha0101/ecommerce-sql-analysis](https://github.com/poojitha0101/ecommerce-sql-analysis)",
   },
   {
     number: "04",
@@ -81,7 +81,7 @@ const projects = [
       "Explored scalable data workflow concepts including structured data processing and pipeline stages.",
     ],
     tags: ["PySpark", "Databricks", "SQL"],
-    link: "https://github.com/poojitha0101/pyspark-bigdata-analytics-lab",
+    link: "[https://github.com/poojitha0101/pyspark-bigdata-analytics-lab](https://github.com/poojitha0101/pyspark-bigdata-analytics-lab)",
   },
   {
     number: "05",
@@ -96,7 +96,7 @@ const projects = [
       "Focused on reducing repetitive manual tracking activities through automation.",
     ],
     tags: ["Python", "Automation", "Selenium"],
-    link: "https://github.com/poojitha0101/automated-job-tracking-workflow",
+    link: "[https://github.com/poojitha0101/automated-job-tracking-workflow](https://github.com/poojitha0101/automated-job-tracking-workflow)",
   },
 ];
 
@@ -261,7 +261,7 @@ function App() {
 
             <div className="social-links">
               <a
-                href="https://github.com/poojitha0101"
+                href="[https://github.com/poojitha0101](https://github.com/poojitha0101)"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -269,7 +269,7 @@ function App() {
               </a>
               <span>·</span>
               <a
-                href="https://www.linkedin.com/in/poojitha-n-541a58353"
+                href="[https://www.linkedin.com/in/poojitha-n-541a58353](https://www.linkedin.com/in/poojitha-n-541a58353)"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -530,32 +530,37 @@ function App() {
               <div>
                 <CheckCircle2 size={18} />
                 <p>
-                  Worked with SQL, Python, Excel and Power BI for data analysis
-                  and reporting activities.
+                  Analyzed and prepared 7,000+ records using SQL, Python, and
+                  Excel, performing data cleaning, validation, transformation,
+                  and EDA to improve data quality and consistency.
                 </p>
               </div>
 
               <div>
                 <CheckCircle2 size={18} />
                 <p>
-                  Performed data cleaning, preparation and exploratory analysis
-                  across datasets.
+                  Developed interactive Power BI dashboards using DAX and Power
+                  Query and prepared Excel MIS reports to track KPIs, business
+                  trends, and key metrics.
                 </p>
               </div>
 
               <div>
                 <CheckCircle2 size={18} />
                 <p>
-                  Used SQL queries to extract, transform and analyze data for
-                  reporting and business analysis.
+                  Performed trend analysis, segmentation, and root cause
+                  analysis using SQL, Python, and Excel to identify patterns,
+                  anomalies, and key factors.
                 </p>
               </div>
 
               <div>
                 <CheckCircle2 size={18} />
                 <p>
-                  Developed Power BI dashboards to present KPIs, trends and
-                  analytical findings.
+                  Worked on 3 end-to-end analytics projects covering HR
+                  Attrition, Telco Customer Churn, and E-Commerce Sales,
+                  presenting findings and recommendations to support
+                  data-driven decisions.
                 </p>
               </div>
 
@@ -858,7 +863,7 @@ function App() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/poojitha-n-541a58353"
+                  href="[https://www.linkedin.com/in/poojitha-n-541a58353](https://www.linkedin.com/in/poojitha-n-541a58353)"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -875,7 +880,7 @@ function App() {
                 </a>
 
                 <a
-                  href="https://github.com/poojitha0101"
+                  href="[https://github.com/poojitha0101](https://github.com/poojitha0101)"
                   target="_blank"
                   rel="noreferrer"
                 >
