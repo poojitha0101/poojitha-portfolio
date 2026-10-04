@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import {
   ArrowUpRight,
@@ -33,7 +34,7 @@ const projects = [
       "Built a 6-visual Power BI dashboard to track attrition KPIs and highlight overtime and compensation as key retention factors.",
     ],
     tags: ["Python", "SQL", "Power BI", "Pandas"],
-    link: "[https://github.com/poojitha0101/hr-attrition-analysis](https://github.com/poojitha0101/hr-attrition-analysis)",
+    link: "https://github.com/poojitha0101/hr-attrition-analysis",
   },
   {
     number: "02",
@@ -49,7 +50,7 @@ const projects = [
       "Built a 2-page interactive Power BI drill-through dashboard and developed a tiered pricing and retention recommendation for higher-risk customer segments.",
     ],
     tags: ["Python", "Pandas", "Power BI", "Analytics"],
-    link: "[https://github.com/poojitha0101/telco-churn-analysis](https://github.com/poojitha0101/telco-churn-analysis)",
+    link: "https://github.com/poojitha0101/telco-churn-analysis",
   },
   {
     number: "03",
@@ -65,7 +66,7 @@ const projects = [
       "Prepared Excel MIS reports using Pivot Tables to analyze sales performance and identify high-value customer segments.",
     ],
     tags: ["SQL", "Excel", "Business Analysis"],
-    link: "[https://github.com/poojitha0101/ecommerce-sql-analysis](https://github.com/poojitha0101/ecommerce-sql-analysis)",
+    link: "https://github.com/poojitha0101/ecommerce-sql-analysis",
   },
   {
     number: "04",
@@ -81,7 +82,7 @@ const projects = [
       "Explored scalable data workflow concepts including structured data processing and pipeline stages.",
     ],
     tags: ["PySpark", "Databricks", "SQL"],
-    link: "[https://github.com/poojitha0101/pyspark-bigdata-analytics-lab](https://github.com/poojitha0101/pyspark-bigdata-analytics-lab)",
+    link: "https://github.com/poojitha0101/pyspark-bigdata-analytics-lab",
   },
   {
     number: "05",
@@ -96,7 +97,7 @@ const projects = [
       "Focused on reducing repetitive manual tracking activities through automation.",
     ],
     tags: ["Python", "Automation", "Selenium"],
-    link: "[https://github.com/poojitha0101/automated-job-tracking-workflow](https://github.com/poojitha0101/automated-job-tracking-workflow)",
+    link: "https://github.com/poojitha0101/automated-job-tracking-workflow",
   },
 ];
 
@@ -261,7 +262,7 @@ function App() {
 
             <div className="social-links">
               <a
-                href="[https://github.com/poojitha0101](https://github.com/poojitha0101)"
+                href="https://github.com/poojitha0101"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -269,7 +270,7 @@ function App() {
               </a>
               <span>·</span>
               <a
-                href="[https://www.linkedin.com/in/poojitha-n-541a58353](https://www.linkedin.com/in/poojitha-n-541a58353)"
+                href="https://www.linkedin.com/in/poojitha-n-541a58353"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -291,8 +292,7 @@ function App() {
           <div className="about-grid">
             <div className="about-main">
               <p className="section-kicker">
-                A practical approach to data, technology and business
-                problems.
+                A practical approach to data, technology and business problems.
               </p>
 
               <h2>
@@ -863,7 +863,7 @@ function App() {
                 </a>
 
                 <a
-                  href="[https://www.linkedin.com/in/poojitha-n-541a58353](https://www.linkedin.com/in/poojitha-n-541a58353)"
+                  href="https://www.linkedin.com/in/poojitha-n-541a58353"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -880,7 +880,7 @@ function App() {
                 </a>
 
                 <a
-                  href="[https://github.com/poojitha0101](https://github.com/poojitha0101)"
+                  href="https://github.com/poojitha0101"
                   target="_blank"
                   rel="noreferrer"
                 >
